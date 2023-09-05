@@ -29,7 +29,7 @@ spec:
         app: my-first-app
     spec:
       containers:
-      - image: ghcr.io/foremost0379/risa-app:sha256-251bcc8b85a9e89f3f78db221f2f780328095c77e2da832f7828ffacccf2eaeb.sig
+      - image: ghcr.io/foremost0379/risa-app:v1.0.0
         name: my-first-app
         ports:
         - containerPort: 80
